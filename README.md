@@ -27,10 +27,10 @@ Other components include:
 Download and install watchman(an application that watches and records files as they change.)
 Install Typescript(Superset of JavaScript) and its transpiler with the following command $ `npm install -g typescript && $ tsc -v -y`
 
-##BDD
+#BDD
 
 
-##KnownBugs
+#KnownBugs
 Currently, there are no known bugs but incase of any bugs DM me on Twitter @fbillionare
  
  ##Technologies Used
