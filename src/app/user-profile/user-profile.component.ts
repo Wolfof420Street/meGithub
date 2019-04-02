@@ -9,7 +9,7 @@ import {SearchService} from '../user-profile/search.service'
   providers: [SearchService]
 })
 export class UserProfileComponent implements OnInit {
-  public nameToSearch = 'devwaweru';
+  public nameToSearch = 'Wolfof420STreet';
   public newName;
   users:Users;
   repo=[Repos]
