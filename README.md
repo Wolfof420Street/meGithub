@@ -34,8 +34,6 @@ Install Typescript(Superset of JavaScript) and its transpiler with the following
 | Search for repos 	| Click on  Find Repos and type the name of repository. Spaces are allowed in this case 	| Displays a list of 10 repositories based on the query. 	|
 | Load more search Results 	| Click  Load More button on the Find Repos page 	| Adds 10 more results in the search result 	|
 | Redirect to a specific github profile on Github website 	| Click the username of a Github user to redirect 	| Opens the profile on the Github website 	|
-| Redirect to a specific github repository on Github website | Click on the name of the repo to redirect | Opens the repository on Github |
-
 ##KnownBugs
 Currently, there are no known bugs but incase of any bugs DM me on Twitter @fbillionare
  
