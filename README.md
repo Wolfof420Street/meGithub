@@ -26,14 +26,15 @@ Other components include:
 2. Download and install Angular(a platform that makes it easy to build applications) using the following command >$ `npm install -g @angular/cli`
 Download and install watchman(an application that watches and records files as they change.)
 Install Typescript(Superset of JavaScript) and its transpiler with the following command $ `npm install -g typescript && $ tsc -v -y`
+3. Once you are done you can clone my repository by running the `git clone https://github.com/Wolfof420Street/meGithub.git` 
+4. next the user should run the command `npm install`
+5. The user should run `ng serve --o` to get the server running and automatically open the default browser. 
 
-#BDD
 
-
-#KnownBugs
+##KnownBugs
 Currently, there are no known bugs but incase of any bugs DM me on Twitter @fbillionare
  
- ##Technologies Used
+##Technologies Used
 Angular.js
 TypeScript
 nodejs
