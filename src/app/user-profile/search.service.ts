@@ -4,6 +4,7 @@ import {Users} from '../users';
 import {Repos} from '../repos';
 import { resolve } from 'url';
 import { reject } from 'q'
+import {environment} from '../../environments/environment'
 
 @Injectable()
 export class SearchService {

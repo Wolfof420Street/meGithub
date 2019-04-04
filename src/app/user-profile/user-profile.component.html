@@ -1,8 +1,8 @@
+<ng-progress></ng-progress>
 <div class="jumbotron" id="result">
     <form class="git-search" action="">
-      <input [(ngModel)] = "username" name ="username" (keyup)="SearchUser()" placeholder="Search Username" width="100%">
-    </form>
-    <div *ngIf="profile">
+          </form>
+    <div *ngIf="users">
       <div class="panel panel-info">
         <div class="panel-header">
           <p> {{Users.name}} <small>({{Users.login}})</small></p>
@@ -20,7 +20,7 @@
       <div class="panel-header">
        <p>Repos</p>
       </div>
-      <div class="panel-body" *ngFor = "let repo of Repos">
+      <div class="panel-body" *ngFor = "let repo of repos">
         <ul>
           <li>{{Repos.name}}</li>
         </ul>
