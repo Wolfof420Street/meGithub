@@ -17,7 +17,6 @@ export class SearchService {
     this.repos = new Repos("","","",new Date())
    }
 }
-
     interface ApiResponse{
       name:string;
       login:string;

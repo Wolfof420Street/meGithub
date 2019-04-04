@@ -54,7 +54,9 @@ export class UserProfileComponent implements OnInit {
   constructor(public gitUserRequests:SearchService,public gitUserRepos:SearchService) { }
 
   ngOnInit() {
-    
-  }
+    this.resultCount = 1;
+    this.gitUserRepos.newRepo(this.newName,this.resultCount);
+    console.log(this.newName);
+   }
 
 }
