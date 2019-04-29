@@ -1,6 +1,15 @@
 <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-       <h1 class="animated infinite jello delay-2s">Welcome to Github Search</h1>
+        
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.2/js/mdb.min.js"></script>
+  <h1 class="animated infinite jello delay-2s">Welcome to Github Search</h1>
 </head>
 <body>
       <div class="container">
@@ -14,6 +23,31 @@
             <div class="panel panel-info">
               <div class="panel-heading">
                 <h2 class="panel-title">Repositories</h2>
+                <div class="mb-4" >
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="https://avatars1.githubusercontent.com/u/47379369?s=460&v=4" alt="Avatar">
+                        <div class="card-body">
+                          <h4 class="card-title">Wolf of 420 Street</h4>
+                          <p class="card-text">Github Profile.</p>
+                          <a href="https://github.com/Wolfof420Street/" class="btn btn-primary">See Profile</a>
+                        </div>
+                      </div>
+                  </div>
+                  <!-- Search form -->
+                <input class="form-control" name="userName" type="text" (keyup)='getUsers($event)' [(ngModel)]="userName"placeholder="Search" aria-label="Search">
+                
+                </div>
+                <div class="mb-4">
+                <a target="_blank" class="btn btn-outline-white btn-lg text-info" type="button"  (click)="getUsers()" >Find User 
+                  <i class="fas fa-search ml-2 animated wobble infinite"></i>
+                </a>
+              </div>
+              <div class="form-group mb-4">
+                <a target="_blank" class="btn btn-outline-white btn-lg text-info" type="button" (click)="getRepos()" > Show Repos 
+                  <i class="fas fa-search ml-2 animated wobble infinite"></i>
+                </a>
+              </div>
+              </div>
               </div>
               <div class="panel-body">
                 <img src="assets/git.png" height="69px" width="69px">
